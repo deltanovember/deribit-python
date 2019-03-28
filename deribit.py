@@ -31,7 +31,7 @@ def main():
 
 
     websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("wss://test.deribit.com/ws/api/v2",
+    ws = websocket.WebSocketApp("wss://www.deribit.com/ws/api/v2",
                             on_message = on_message,
                             on_error = on_error,
                             on_close = on_close)
